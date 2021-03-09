@@ -24,11 +24,13 @@ class App extends React.Component {
     return (
       <div className="App">
         <h1>Github User Info</h1>
-        <div className='mainUser'>
-          <img src={this.state.avatar_url} alt='users avatar'></img>
-          <div key={this.state.id}>Name: {this.state.name}<br></br>Location: {this.state.location}</div>
+        <div className='container'>
+          <div className='mainUser'>
+            <img src={this.state.avatar_url} alt='users avatar'></img>
+            <div className='info' key={this.state.id}>Name: {this.state.name}<br></br>Location: {this.state.location}</div>
+          </div>
+          <Followers />
         </div>
-        <Followers />
       </div>
     );
   }
