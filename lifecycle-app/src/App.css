@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+}
+
+img {
+  width: 10%;
+}
+
+.card {
+  margin: 2% 10%;
+}
+
+.followers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+h3 {
+  border-bottom: 1px dashed grey;
+}
+
+.follower {
+  margin: 20px;
+}
