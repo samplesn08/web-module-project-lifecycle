@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 5% 10%;
+  height: 70vh;
+  border: 3px double grey;
+  background-color: rgb(46, 46, 46);
+}
+
+.mainUser {
+  margin-left: 30px;
+  color: white;
+}
+
+img {
+  width: 40%;
+  
+}
+
+.card {
+  margin: 2% 10%;
+}
+
+h3 {
+  color: white;
+}
+
+.info {
+  width: 110%;
+}
+
+.followers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 50vh;
+  background-color: grey;
+}
+
+.follower {
+  width: 20%;
+}
